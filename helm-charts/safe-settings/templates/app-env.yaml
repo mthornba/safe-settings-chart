@@ -11,3 +11,7 @@ data:
   {{- if .Values.appEnv.DEPLOYMENT_CONFIG_FILE }}
   DEPLOYMENT_CONFIG_FILE: {{ .Values.appEnv.DEPLOYMENT_CONFIG_FILE | b64enc }}
   {{- end }}
+  {{- if .Values.appEnv.CRON }}
+  CRON: {{ .Values.appEnv.CRON | b64enc }}
+  {{- end }}
+  LOG_LEVEL: {{ .Values.appEnv.LOG_LEVEL | default "info" | b64enc }}
