@@ -25,6 +25,28 @@ entries:
     version: 0.1.0
   safe-settings:
   - apiVersion: v2
+    appVersion: 2.0.18
+    created: "2023-04-19T17:26:12.016149796Z"
+    description: A GitHub App built with [Probot](https://github.com/probot/probot)
+      to manage policy-as-code and apply repository settings to repositories across
+      an organization.
+    digest: a1406803435092bb3c0fd0e0f702d263968b4df2aaef4a665b3e2cdee6f409bc
+    home: https://github.com/github/safe-settings
+    icon: https://wile.example.com/anvil.svg
+    keywords:
+    - github
+    - policy
+    maintainers:
+    - email: matt.thornback@arctiq.ca
+      name: Matt Thornback
+    name: safe-settings
+    sources:
+    - https://github.com/github/safe-settings
+    type: application
+    urls:
+    - https://github.com/mthornba/safe-settings-chart/releases/download/safe-settings-0.2.2/safe-settings-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 2.0.0
     created: "2022-08-12T09:46:28.06836-04:00"
     description: A GitHub App built with [Probot](https://github.com/probot/probot)
@@ -46,4 +68,4 @@ entries:
     urls:
     - safe-settings-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-12T09:46:28.066669-04:00"
+generated: "2023-04-19T17:26:12.016159696Z"
